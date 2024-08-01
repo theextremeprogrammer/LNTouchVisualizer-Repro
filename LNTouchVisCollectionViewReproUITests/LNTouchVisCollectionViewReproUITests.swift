@@ -1,10 +1,3 @@
-//
-//  LNTouchVisCollectionViewReproUITests.swift
-//  LNTouchVisCollectionViewReproUITests
-//
-//  Created by Derek Lee on 2024/08/01.
-//
-
 import XCTest
 
 final class LNTouchVisCollectionViewReproUITests: XCTestCase {

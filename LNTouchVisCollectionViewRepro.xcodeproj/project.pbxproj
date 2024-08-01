@@ -16,6 +16,7 @@
 		527ACBCC2C5C01D1009B5482 /* LNTouchVisCollectionViewReproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ACBCB2C5C01D1009B5482 /* LNTouchVisCollectionViewReproTests.swift */; };
 		527ACBD62C5C01D1009B5482 /* LNTouchVisCollectionViewReproUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ACBD52C5C01D1009B5482 /* LNTouchVisCollectionViewReproUITests.swift */; };
 		527ACBD82C5C01D1009B5482 /* LNTouchVisCollectionViewReproUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ACBD72C5C01D1009B5482 /* LNTouchVisCollectionViewReproUITestsLaunchTests.swift */; };
+		527ACBE82C5C047A009B5482 /* LNTouchVisualizer in Frameworks */ = {isa = PBXBuildFile; productRef = 527ACBE72C5C047A009B5482 /* LNTouchVisualizer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527ACBE82C5C047A009B5482 /* LNTouchVisualizer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = LNTouchVisCollectionViewRepro;
+			packageProductDependencies = (
+				527ACBE72C5C047A009B5482 /* LNTouchVisualizer */,
+			);
 			productName = LNTouchVisCollectionViewRepro;
 			productReference = 527ACBB12C5C01D0009B5482 /* LNTouchVisCollectionViewRepro.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 527ACBA82C5C01D0009B5482;
+			packageReferences = (
+				527ACBE62C5C047A009B5482 /* XCRemoteSwiftPackageReference "LNTouchVisualizer" */,
+			);
 			productRefGroup = 527ACBB22C5C01D0009B5482 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -601,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		527ACBE62C5C047A009B5482 /* XCRemoteSwiftPackageReference "LNTouchVisualizer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LeoNatan/LNTouchVisualizer.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		527ACBE72C5C047A009B5482 /* LNTouchVisualizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 527ACBE62C5C047A009B5482 /* XCRemoteSwiftPackageReference "LNTouchVisualizer" */;
+			productName = LNTouchVisualizer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 527ACBA92C5C01D0009B5482 /* Project object */;
 }

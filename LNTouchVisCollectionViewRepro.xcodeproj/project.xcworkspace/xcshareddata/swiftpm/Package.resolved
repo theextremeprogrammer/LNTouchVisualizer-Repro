@@ -1,0 +1,15 @@
+{
+  "originHash" : "55ebc07dca15f322f104c75debf166bc31b521740a23b689f3a4457876c884a8",
+  "pins" : [
+    {
+      "identity" : "lntouchvisualizer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeoNatan/LNTouchVisualizer.git",
+      "state" : {
+        "revision" : "de2394956eb273ce2f65ce94074d88a8659ae81a",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
